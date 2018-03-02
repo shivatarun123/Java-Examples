@@ -1,0 +1,15 @@
+package com.ClassesObjects;
+
+public class Student {
+
+    public int age;
+    public int backlogs;
+    public Student(int age){
+        this.age=age;
+    }
+    public int showStudent(int backlogs){
+        return this.backlogs=backlogs;
+
+    }
+
+}

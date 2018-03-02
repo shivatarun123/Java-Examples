@@ -1,0 +1,11 @@
+package com.ClassesObjects;
+
+public class App {
+
+public static void main(String args[]){
+    Student nikhil = new Student(23); // creating an instance nikhil of class Student 
+    
+    
+    System.out.println(nikhil.showStudent(10)); //calling a method which returns backlogs takes in put as backlogs 
+}
+}
